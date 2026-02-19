@@ -1,5 +1,8 @@
+import { RouterProvider } from "react-router"
+import { appRouter } from "./router/app.router"
+
 export const AttendanceSystemApp = () => {
   return (
-    <div>AttendanceSystemApp</div>
+    <RouterProvider router={appRouter} />
   )
 }
